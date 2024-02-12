@@ -48,7 +48,6 @@ public class Order {
     public void setDiscountPrice(int discountPrice) {
         this.discountPrice = discountPrice;
     }
-
     @Override
     public String toString() {
         return "Order{" +
@@ -58,4 +57,5 @@ public class Order {
                 ", discountPrice=" + discountPrice +
                 '}';
     }
+
 }
