@@ -15,3 +15,14 @@
    - 할인 정책은 변경 가능성 높음. 회사의 기본 할인 정책을 아직 정하지 못했음
 ![image](https://github.com/SG1515/pj1_spring/assets/96984293/9d76b13e-bc81-4297-a324-2fb41c6ac589)
 </br>
+
+* 새로운 할인 정책
+새로운 할인 정책을 확장해보자. 정률 할인 정책 수립 및 적용하기
+![image](https://github.com/SG1515/pj1_spring/assets/96984293/095347a4-4dfe-4fdd-ba8b-5d9e7cb67548)
+
+
+
+
+</br></br></br>
+---
+인프런 - 스프링 핵심원리
