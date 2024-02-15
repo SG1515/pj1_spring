@@ -7,11 +7,17 @@ public class MemberServiceImpl implements MemberService {
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
+
+
     public void join(Member member) {
         // 호출하면 MemoryMemberRepository()에 있는 override된 save를 호출
         memberRepository.save(member);
     }
     public Member findMember(Long memberId) {
         return memberRepository.findById(memberId);
+    }
+    //테스트 용도
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
     }
 }
