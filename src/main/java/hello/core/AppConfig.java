@@ -10,7 +10,8 @@ import hello.core.order.OrderService;
 import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+//@Bean이 붙은 메서드마다 이미 스프링빈이 존재하면 존재하는 빈을 반환하고, 스프링 빈이 없으면 스플이 빈으로 등록하고 반환하는 코드가 동적으로 만들어짐
+// 싱글톤 보장 - Configuration 적용한 Appconfig <- 상속하는 AppConfig AppConfig@CGLIB
 @Configuration
 public class AppConfig {
     //생성자 주입
